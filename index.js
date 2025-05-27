@@ -9,7 +9,7 @@ require("dotenv").config();
 const app = express();
 app.use(
   cors({
-    origin: ["https://simplebankingapp.vercel.app/"],
+    origin: ["https://simplebankingapp.vercel.app"],
     credentials: true,
   })
 );
